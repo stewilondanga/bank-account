@@ -1,0 +1,17 @@
+body {
+  text-align: left;
+  font-family: courier;
+  background-image: url("../assets/image.gif");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: #DA2C07;
+  font-weight: bold;
+}
+
+h2 {
+  color: #eea30d;
+}
+
+p {
+  color: #DACD07;
+}
