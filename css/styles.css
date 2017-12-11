@@ -8,10 +8,58 @@ body {
   font-weight: bold;
 }
 
+h1{
+  font-size: 20px;
+  text-align: center;
+
+  color: #404040;
+  margin: 10px 0;
+}
+
 h2 {
   color: #eea30d;
 }
 
 p {
   color: #DACD07;
+}
+
+.form{
+  width: 400px;
+
+  margin: 10px auto;
+  padding: 30px;
+  background: #E0FAAD;
+}
+
+input{
+  display: block;
+  width: 300px;
+
+  margin: 15px auto;
+  padding: 10px;
+
+  border-radius: 5px;
+  border: 1px solid #404040;
+}
+input[type = "submit"]{
+  background-color: blue;
+  color: white;
+  border: 0;
+}
+meter {
+  display: block;
+  width: 280px;
+  margin: auto;
+  height: 8px;
+}
+#error{
+  color: red;
+}
+.display-none{
+  display: none;
+
+}
+meter{
+  width:
 }

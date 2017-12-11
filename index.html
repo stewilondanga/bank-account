@@ -11,40 +11,30 @@
 <div class="container">
   <h2>Welcome to Moringa Bank</h2>
   <p>Register New Account</p>
-  <form class="form-horizontal">
-    <div class="form-group">
-      <label class="control-label col-sm-2" for="Name">Name:</label>
-      <div class="col-sm-5">
-      <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
-      </div>
-      <p>Deposit or withdraw funds</p>
-      <label class="control-label col-sm-2" for="Deposit">Deposit amount:</label>
-      <div class="col-sm-5">
-        <input type="number" class="form-control" id="deposit" placeholder="Amount" name="deposit">
-      </div>
-      <label class="control-label col-sm-2" for="Deposit">Initial deposit:</label>
-      <div class="col-sm-5">
-        <input type="number" class="form-control" id="deposit" placeholder="Amount" name="deposit">
-      </div>
-      <label class="control-label col-sm-2" for="Withdraw">Withdraw amount:</label>
-      <div class="col-sm-5">
-        <input type="number" class="form-control" id="deposit" placeholder="Amount" name="deposit">
-      </div>
-    </div>
-    <div class="form-group">
-      <div class="col-sm-offset-2 col-sm-10">
-        <div class="checkbox">
-          <label><input type="checkbox" name="remember">Confirm details</label>
-        </div>
-      </div>
-    </div>
-    <div class="form-group">
-      <div class="col-sm-offset-2 col-sm-10">
-        <button type="submit" class="btn btn-default">Submit</button>
-        <p>Current Balance:</p>
-      </div>
-    </div>
+  <main class = "form">
+  <h1>Sign Up </h1>
+  <form   name="myForm" action=" "
+  onsubmit="return validateForm();" method="post">
+
+  <input type="text" id="fname" placeholder = "First Name" required = "true" autofocus>
+
+ <input type="text" id="lname" placeholder = "Last Name" required = "true">
+
+    <input type="email" id="email" required = "true" placeholder = "Email">
+
+    <input type="password" id = "password" name="password" required = "true" placeholder = "Password">
+
+    <meter max = "4" id = "password-meter" class = "display-none" ></meter><p id="password-meter-strength" class="display-none">
+</p>
+    <input type="password" name="conpassword" id = "conpassword" required="true" placeholder = "Confirm Password" >
+
+   <p id = "error"></p>
+
+   <input type="submit" value="Submit" id =  "continue">
   </form>
+
+</main>
+</div>
 </div>
 
   <div class="panel-footer">
